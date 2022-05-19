@@ -23,7 +23,7 @@ event.preventDefault();//to overcome default behaviour
 var item=document.getElementById("item").value;
 console.log(item);
 
-var res=fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+var res=fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
 console.log(res);
 res.then((data)=>data.json())
 .then((value)=>{
